@@ -236,21 +236,29 @@ void MOVE_REFEM (char tecla, JOGADOR *player, CHAVE *key) //move o protagonista
     {
     //efetua o movimento  do personagem, caso ele seja válido
     case CIMA: //e apaga as partes necessárias para não deixar rastro em cada caso
+    case 119:
+    case 87:
         if(player -> y>3)
             player -> y= player -> y-1;
         cputsxy(player -> x, player -> y+3,"    ");
         break;
+    case 115:
     case BAIXO:
+    case 83:
         if((player -> y+2)<24)
             player -> y = player -> y+1;
         cputsxy(player -> x, player -> y-1,"     ");
         break;
+    case 97:
     case ESQUERDA:
+    case 65:
         if(player -> x>2)
             player -> x= player -> x-1;
         cputsxy(player -> x+5, player -> y," ");
         break;
+    case 100:
     case DIREITA:
+    case 68:
         if(player -> x<(limiteDireita-5))
             player -> x= player -> x+1;
         cputsxy(player -> x-1, player -> y+1," ");
