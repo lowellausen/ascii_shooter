@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1613348432 source:d:\documents\cic\cic\algoritmos e programa«√o\ascii_shooter\src\includes.c
+	"../headers/includes.h"
+
+1613348131 d:\documents\cic\cic\algoritmos e programa«√o\ascii_shooter\headers\includes.h
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+	<conio2.h>
+	<string.h>
+	<time.h>
+
+1613348437 source:d:\documents\cic\cic\algoritmos e programa«√o\ascii_shooter\src\main.c
+	"../headers/includes.h"
+
